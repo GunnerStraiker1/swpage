@@ -1,0 +1,26 @@
+.navbar{
+    background-color: black;
+    color: white;
+}
+
+.nav-link{
+    color: #ffffff !important
+}
+
+
+.imgBrand {
+    width: 15%;
+    margin-left: 42vw;
+}
+
+@media(max-width: 800px){
+
+    .navbar-brand{
+        width: 70%;
+    }
+
+    .imgBrand{
+        margin-left: 0;
+        width: 50%;
+    }
+}
