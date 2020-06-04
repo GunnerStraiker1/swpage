@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Parallax } from "react-parallax";
 import Carousel from '../carousel/initialCarousel'
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Movies from "../../views/Movies/Movies";
 
 import './sections.css'
@@ -198,6 +198,11 @@ export default class bgParallax extends Component{
                     <Row>
                       <Col sm={{span: 8, offset: 2}}>
                             <Movies />
+                        </Col>
+                    </Row>
+                    <Row style={{marginTop:"2em"}}>
+                        <Col sm={12}>
+                            <Image src="https://i.ytimg.com/vi/vyb3Xh06UL0/maxresdefault.jpg"  className="w-100"/>
                         </Col>
                     </Row>
                   </div>
