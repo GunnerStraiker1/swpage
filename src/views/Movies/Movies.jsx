@@ -4,6 +4,7 @@ import './movies.css'
 
 const originalMovies = [
     {   movieTitle:"Star Wars: A New Hope",
+        anio:"1977",
         url: "https://images-na.ssl-images-amazon.com/images/I/61AZSQsCpEL._AC_SY879_.jpg",
         description:"The evil Galactic Empire have governed the galaxy for almost 20 years with fear and oppression. A civil war has begun, the Rebels have a plan to destroy the Empire's ultimate weapon, the Death Star, a space station with power to destroy an entire planet. A farmer, a princess, a smuggler, a Wookie and two droids are the hope for the galaxy",
         importantEvents:[
@@ -14,6 +15,7 @@ const originalMovies = [
         ]
     },
     {   movieTitle:"Star Wars: The Empire Strikes Back",
+        anio:"1980",
         description:"The Rebels are hidden from the Empire, they are found them, and they have to escape. Luke has a vision and meets with master Yoda to train to be a Jedi. The Millennium Falcon is pursuit by the Darth Vader's Star Destroyer. They escape to Bespin but are ambushed there by Darth Vader and Boba Fett, Luke try to help them, but he will find a horrible truth",
         url: "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
         importantEvents:[
@@ -24,6 +26,7 @@ const originalMovies = [
         ]
     },
     {   movieTitle:"Star Wars: The Return of the Jedi",
+        anio:"1983",
         description:"Han Solo has been captured by Boba Fett, all his friends try to rescue him from Jabba the Hutt, meanwhile, the Empire has begun the construction on a new Death Star, now the Rebels led by Admiral Akbar and Luke as a Jedi, are going to destroy the new weapon and the Empire in one last final battle and free the galaxy once for all.",
         url: "https://i.pinimg.com/originals/65/63/5c/65635c6fa9531c8e3efb57a71ecfd4de.jpg",
         importantEvents:[
@@ -38,6 +41,7 @@ const originalMovies = [
 const precuels = [
     {
         movieTitle:"Star Wars: The Phantom Menace",
+        anio:"1999",
         url: "https://i.pinimg.com/originals/5e/d8/1c/5ed81c40def663a45769c8c21f8cf597.jpg",
         description:"32 BBY, The Galactic Republic is in troubles, the trade federation has increased the taxation and have made sanctions to different systems, also they have blocked the little planet of Naboo. While the Senate endlessly debates, the Supreme Chancellor secretly has sent two Jedi Knights to settle the conflict.",
         importantEvents:[
@@ -49,6 +53,7 @@ const precuels = [
     },
     {
         movieTitle:"Star Wars: The Attack of the Clones",
+        anio:"2002",
         url: "https://i.frog.ink/j5Eozwnv/swnmr94254_600.jpg?v=1566138099.947",
         description:"Has been passed 10 years from the Naboo battle, the separatist movement leader, Count Dooku, and his droid army make difficult to the Jedis maintain the peace and order. War times approach, and now members from the Galactic Senate are being threatened o murdered.",
         importantEvents:[
@@ -60,6 +65,7 @@ const precuels = [
     },
     {
         movieTitle:"Star Wars: The Revenge of the Siths",
+        anio:"2005",
         url: "https://images-na.ssl-images-amazon.com/images/I/71MKj4j-isL._AC_SY679_.jpg",
         description:"The Republic with his clone army has been fighting against the Separatist Movement and his droid army, in a dare movement, the General Grievous has kidnapped the Supreme Chancellor, and has attack the heart of the Republic. Also, Anakin is seduced to the dark side by Lord Sidious, Obi Wan try to kill General Grievous and free Utapau. But then, they discover that Palpatine is Sidious, and he executes the Order 66, a massive Jedi purge.",
         importantEvents:[
@@ -73,6 +79,7 @@ const precuels = [
 const secuels = [
     {
         movieTitle:"Star Wars: The Force Awakens",
+        anio: "2015",
         url: "https://monster-poster.com/site/wp-content/uploads/2016/11/VF_0188-e1478741247117.jpg",
         description:"34 ABY, Luke Skywalker has disappeared, no one knows where he is, meanwhile, the First Order, hidden on beyond the Outer Rim, rises from the ashes of the Empire. A race has begun to find Skywalker, the only way to find him is with a map that a BB unit has, BB-8 unit is found by Rey, a scavenger from Jakkú and with Finn, a First Order deserter and Poe Dameron have to deliver that droid to the Rebellion before Kylo Ren  and the First Order find them.",
         importantEvents:[
@@ -84,6 +91,7 @@ const secuels = [
     },
     {
         movieTitle:"Star Wars: The Last Jedis",
+        anio: "2017",
         url: "https://images-na.ssl-images-amazon.com/images/I/71c-O3GaxLL._AC_SL1200_.jpg",
         description:"After the Starkiller Base and Hosnian Prime was destroyed, the First Order started to conquest planets, the Rebels, led by Leia Organa, had to escape quickly, but they've been intercepted by the Supreme Leader Snoke and the First Order's dreadnoughts cruisers. Rey has to persuade Luke to train her and help the Rebellion, in her training, she starts to experiment a binding with Kylo Ren by the Force, and then, they killed Snoke, but Kylo becomes the new Supreme Leader and Luke dies after saving the Rebellion using the Force.",
         importantEvents:[
@@ -95,8 +103,9 @@ const secuels = [
     },
     {
         movieTitle:"Star Wars: The Rise of Skywalker",
+        anio: "2019",
         url: "https://images-na.ssl-images-amazon.com/images/I/71S1KdAH8xL._AC_SY741_.jpg",
-        description:"",
+        description:"The Emperor is alive! After all, the Emperor using the Force has transfer his soul to a clone inside a Sith temple. Now Kylo Ren and Rey have to find two wayfinders to localize Exegol, the Emperor where Palapatine is, on the journey, Rey tries to pass Kylo to the light side of the Force, and she makes it, Kylo Ren is Ben Solo, son of Leia and Han and together defeat the Emperor,  and all the spacecrafts fight together against the First Order, but Ben dies and Rey restore the balance to the Force.",
         importantEvents:[
             {title:"", url:"https://holacine.com.ar/wp-content/uploads/2019/12/La-resurrecci%C3%B3n-de-Palpatine-se-explica-hilarantemente-en-el-video-animado-de-Star-Wars-9.jpg"},
             {title:"", url:"https://s1.eestatic.com/2019/12/18/cultura/cine/Critica_de_cine-Star_Wars-Estrenos_de_cine-Cine_452965268_140748352_1024x576.jpg"},
@@ -107,17 +116,22 @@ const secuels = [
 ]
 const spinoffs = [
     {url: "https://www.cinemascomics.com/wp-content/uploads/2020/04/star-wars-the-clone-wars.jpg"},
-    {url: "https://vignette.wikia.nocookie.net/es.starwars/images/e/e4/Rogue_One_Una_Historia_de_Star_Wars.jpg/revision/latest?cb=20161014014337"},
-    {url: "https://www.ecartelera.com/images/noticias/fotos/46300/46305/3.jpg"},
     {url: "https://vignette.wikia.nocookie.net/es.starwars/images/c/c5/Star_Wars_Rebels_Season_Two_Official_Poster.png/revision/latest?cb=20150419090833"},
-    {url: "https://vignette.wikia.nocookie.net/es.starwars/images/4/45/TheMandalorianS1Poster.png/revision/latest?cb=20190824064722"}
+    {url: "https://vignette.wikia.nocookie.net/es.starwars/images/e/e4/Rogue_One_Una_Historia_de_Star_Wars.jpg/revision/latest?cb=20161014014337"},
+    {url: "https://www.ecartelera.com/images/noticias/fotos/46300/46305/3.jpg"}
+    
+]
+
+const comingSoon = [
+    {url:"https://vignette.wikia.nocookie.net/es.starwars/images/4/45/TheMandalorianS1Poster.png/revision/latest?cb=20190824064722"},
+    {url:"https://www.guioteca.com/tv-internacional/files/2020/04/trailer-serie-obi-wan-kenobi-2.jpg"}
 ]
 
 export default class Movies extends Component{
     render(){
         return(
-            <div className= "newSection" id="movies">
-                <h1>The Skywalker Saga</h1>
+            <div className= "newSection">
+                <h1 id="skywalker">The Skywalker Saga</h1>
                 <Container fluid className="movieContainer">
                     <div className="subtitle"> 
                         <h3>original Movies (1977-1983)</h3>
@@ -128,7 +142,7 @@ export default class Movies extends Component{
                                 return(
                                     <Col sm={12} key={key} className="col-movies">
                                         <Card className="movieCard">
-                                            <Card.Header className="movieCard-header">{movie.movieTitle}</Card.Header> 
+                                            <Card.Header className="movieCard-header">{movie.movieTitle} ({movie.anio})</Card.Header> 
                                             <Card.Body>
                                                 <Row>
                                                     <Col sm={4}>
@@ -172,7 +186,7 @@ export default class Movies extends Component{
                                 return(
                                     <Col sm={12} key={key} className="col-movies">
                                         <Card className="movieCard">
-                                            <Card.Header className="movieCard-header">{movie.movieTitle}</Card.Header> 
+                                            <Card.Header className="movieCard-header">{movie.movieTitle} ({movie.anio})</Card.Header> 
                                             <Card.Body>
                                                 <Row>
                                                     <Col sm={4}>
@@ -216,7 +230,7 @@ export default class Movies extends Component{
                                 return(
                                     <Col sm={12} key={key} className="col-movies">
                                         <Card className="movieCard">
-                                            <Card.Header className="movieCard-header">{movie.movieTitle}</Card.Header> 
+                                            <Card.Header className="movieCard-header">{movie.movieTitle} ({movie.anio})</Card.Header> 
                                             <Card.Body>
                                                 <Row>
                                                     <Col sm={4}>
@@ -251,14 +265,29 @@ export default class Movies extends Component{
                             })
                         }
                     </Row>
-                    <div className="subtitle">
-                        <h3>Spin off Movies and Series</h3>
-                    </div>
-                    <Row>
-                    {
+                    {/* <Row>
+                        {
                             spinoffs.map((spin, key)=>{
                                 return(
-                                    <Col sm={4} key={key}>
+                                    <Col md={3} key={key}>
+                                        <Card className="movieCard"> 
+                                            <Card.Body>
+                                                <img src={spin.url} alt="" className="movieImg"/>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                )
+                            })
+                        }
+                    </Row> */}
+                </Container>
+                <h1 id="spin">Spin offs and Series</h1>
+                <Container fluid className="movieContainer">
+                    <Row>
+                        {
+                            spinoffs.map((spin, key)=>{
+                                return(
+                                    <Col md={3} key={key} className="col-movies">
                                         <Card className="movieCard"> 
                                             <Card.Body>
                                                 <img src={spin.url} alt="" className="movieImg"/>
@@ -270,6 +299,23 @@ export default class Movies extends Component{
                         }
                     </Row>
                 </Container>
+
+                <h1 id="soon">Coming Soon</h1>
+                <Row>
+                    {
+                        comingSoon.map((soon, key)=>{
+                            return(
+                                <Col md={{span:3, offset:2}} key={key}>
+                                    <Card className="movieCard"> 
+                                        <Card.Body>
+                                            <img src={soon.url} alt="" className="movieImg"/>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            )
+                        })
+                    }
+                </Row>
             </div>
         )
     }

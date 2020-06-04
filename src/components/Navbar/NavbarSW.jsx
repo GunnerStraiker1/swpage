@@ -31,14 +31,16 @@ class NavbarSW extends Component{
         return(
             <Navbar expand="lg" collapseOnSelect fixed="top">
                 <Navbar.Brand>
-                    <img className="imgBrand" id="imgBrand" src="https://dx35vtwkllhj9.cloudfront.net/disney/star-wars-the-force-awakens/images/regions/es/tt.png" alt="Logo SW"/>
-                    </Navbar.Brand>
+                    <Nav.Link href="#">
+                        <img className="imgBrand" id="imgBrand" src="https://dx35vtwkllhj9.cloudfront.net/disney/star-wars-the-force-awakens/images/regions/es/tt.png" alt="Logo SW"/>
+                    </Nav.Link>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto"> 
-                        <Nav.Link href="#movies">Movies</Nav.Link>
-                        <Nav.Link>Characters</Nav.Link>
-                        <Nav.Link>Important Battles</Nav.Link>
+                    <Nav className="ml-auto" style={{width: "max-content"}}> 
+                        <Nav.Link href="#skywalker">Skywalker Saga</Nav.Link>
+                        <Nav.Link href="#spin">Spin Offs</Nav.Link>
+                        <Nav.Link href="#soon">Coming Soon</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 
