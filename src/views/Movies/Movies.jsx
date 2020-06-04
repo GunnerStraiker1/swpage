@@ -118,7 +118,8 @@ const spinoffs = [
     {url: "https://www.cinemascomics.com/wp-content/uploads/2020/04/star-wars-the-clone-wars.jpg"},
     {url: "https://vignette.wikia.nocookie.net/es.starwars/images/c/c5/Star_Wars_Rebels_Season_Two_Official_Poster.png/revision/latest?cb=20150419090833"},
     {url: "https://vignette.wikia.nocookie.net/es.starwars/images/e/e4/Rogue_One_Una_Historia_de_Star_Wars.jpg/revision/latest?cb=20161014014337"},
-    {url: "https://www.ecartelera.com/images/noticias/fotos/46300/46305/3.jpg"}
+    {url: "https://www.ecartelera.com/images/noticias/fotos/46300/46305/3.jpg"},
+    {url: "https://img.europapress.es/fotoweb/fotonoticia_20160212144524-16021589079_9999.jpg"}
     
 ]
 
@@ -287,7 +288,7 @@ export default class Movies extends Component{
                         {
                             spinoffs.map((spin, key)=>{
                                 return(
-                                    <Col md={3} key={key} className="col-movies">
+                                    <Col md={4} key={key} className="col-movies">
                                         <Card className="movieCard"> 
                                             <Card.Body>
                                                 <img src={spin.url} alt="" className="movieImg"/>
