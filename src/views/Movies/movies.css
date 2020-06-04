@@ -1,12 +1,36 @@
+.col-movies{
+    margin-bottom: 3em;
+}
+.movieContainer{
+    background-color: transparent;
+    border-radius: 10px;
+}
+
 .movieCard{
     margin-top: 1em;
     height: 100%;
+    background-color: black;
+    border-color: #FFE81F;
 }
 
-.movieContainer{
-    background-color: black;
-    border-radius: 10px;
+.movieCard-header{
+    font-family: Starjedi;
+    text-align: center;
+    font-size: 1.4em;
+    color: #FFE81F;
+    letter-spacing: 2px;
 }
+
+.movieCard p{
+    color: white;
+    text-align: justify;
+}
+
+.movieCard h4{
+    color:white;
+    text-align: center;
+}
+
 
 .movieImg{
     width: 100%;
@@ -21,4 +45,18 @@
     margin-bottom: 0 !important;
     color: #ffffff;
     font-family: Starjedi;
+    letter-spacing: 2px;
+}
+
+
+.eventImg img{
+    width: 100%;
+    height: 15em;
+}
+
+@media(max-width: 1450px){
+    .eventImg img{
+        width: 100%;
+        height: 100%;
+    }
 }
