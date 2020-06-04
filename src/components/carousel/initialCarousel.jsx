@@ -8,7 +8,7 @@ export default class initialCarousel extends Component{
     render(){
         return(
             <div>
-                <Carousel indicators={false} controls={true} interval={4500} fade={true}>
+                <Carousel indicators={false} controls={false} interval={4500} fade={true}>
                     <Carousel.Item>
                         <img
                         className="d-block imgItemCarousel"
